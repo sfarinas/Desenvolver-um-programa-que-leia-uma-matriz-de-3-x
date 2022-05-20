@@ -9,12 +9,12 @@ int main()
     
     for (i=0; i<3; i++)
     for(j=0;j<3;j++){
-        printf("Elemento[%d][%d]= ",i,j);
+        printf("Elemento [%d][%d]= ",i,j);
         scanf("%d",&m[i][j]);
     }
     
-    //EXIBIR VALORES ORIGINAIS
-    printf("\n::: Valores Originais :::\n");
+    //mostrar valores digitados
+    printf("\n Valores digitados \n");
         for(i=0;i<3;i++){
             
             for(j=0;j<3;j++)
@@ -29,8 +29,8 @@ int main()
         for(j=0;j<3;j++)
         m[i][j]=m[i][j]*5;
         
-        //EXIBIR VALORES MULTIPICADOS
-        printf("\n::: Valores Multiplicados por 5:::\n");
+        //Mostrar valores multiplicados
+        printf("\n Valores multiplicados por 5\n");
         for(i=0;i<3;i++){
             for(j=0;j<3;j++)
             
